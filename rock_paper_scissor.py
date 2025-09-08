@@ -17,10 +17,10 @@ def player():
             return user1,user2
         else:
             print('Invalid Input.Enter Correctly.')
-            player()
+            return player()
     except Exception as e:
             print('Invalid Input.Enter Correctly.')
-            player()
+            return player()
 
 def game_check(data1,data2):
     global score1
